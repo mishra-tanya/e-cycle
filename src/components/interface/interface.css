@@ -1,0 +1,223 @@
+
+.image1,.image8{
+    margin-top: 5px;
+    margin-bottom: 40px;
+    width: calc(100vw - 40px); 
+    height: auto; 
+    overflow: hidden;
+  }
+ .image4 img{
+    width: 600px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+  /* Add this to your CSS file or style section */
+.capsule-container {
+    display: flex;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 60px;
+  }
+  
+  .capsule-container input {
+    flex: 1;
+    border: none;
+    border-radius: 20px;
+
+  }
+  
+  
+  .head{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'var(--typeHeaderPrimary),var(--typeHeaderFallback)';
+    margin-left: 5px;
+    margin-bottom: 50px;
+  }
+  .shadow-lg{
+    padding: 10px;
+    border-radius: 2%;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+.image9 img{
+    margin-top: 10px;
+    width: 400px;
+}
+
+.image10 img{
+    width: 300px;
+}
+
+.image11 img{
+    width: 390px;
+}
+.row .col-4:hover img {
+    border-bottom: 2px solid rgb(0, 0, 0); /* Adjust the color and thickness as needed */
+  }
+.cus1{
+    margin-left: 80px;
+    margin-right: 50px;
+}
+.stay{
+    margin-top: 60px;
+    font-size: 40px;
+}
+  .head1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'var(--typeHeaderPrimary),var(--typeHeaderFallback)';
+    margin-left: 5px;
+    margin-bottom: 50px;
+
+  }
+  .image1 img,.image8 img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+  }
+  .card {
+    padding-bottom: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 100%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+  }/* interface.css */
+.card-animation-left {
+    animation: slideInLeft 3s ease-out;
+}
+
+
+.card-animation-right {
+    animation: slideInRight 3s ease-out;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+  .card-text{
+    margin-top: 25px;
+    font-size: 20px;
+  }
+  
+  .image7, .image6 {
+    width: 100%;
+    height: 500px;
+    margin-top: 5px;
+    object-fit: cover;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .image1,.image2,.image8 {
+      width: 100%; 
+      height: auto; }
+    .image8{
+        margin-top: 10px;
+    }
+  .image7, .image6{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .head{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'var(--typeHeaderPrimary),var(--typeHeaderFallback)';
+    margin-left: 5px;
+    margin-bottom: 50px;
+  }
+  .image9 img{
+    margin-top: 10px;
+    width: 100px;
+}
+
+.image10 img{
+    width: 70px;
+}
+
+.image11 img{
+    width: 105px;
+}
+
+
+.head1{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'var(--typeHeaderPrimary),var(--typeHeaderFallback)';
+    margin-left: 5px;
+
+  }
+  
+.cus1{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.stay{
+    margin-top: 60px;
+    font-size: 20px;
+}
+  
+ .image4 img{
+    width: 165px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .card {
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+  }
+  .image4{
+    width:2px;
+    margin-top: 30px;
+  }
+  
+  .card-text{
+    margin-top: 4px;
+    font-size: 12px;
+  }
+  .capsule-container {
+    display: flex;
+    padding: 5px;
+    margin-left: 30px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 60px;
+  }
+  
+  .capsule-container input {
+    flex: 1;
+    border: none;
+    border-radius: 20px;
+
+  }
+  
+  }
