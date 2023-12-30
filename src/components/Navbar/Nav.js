@@ -2,13 +2,8 @@ import React, { useState, useEffect } from 'react';
 import "./Nav.css"
 
 const Nav = () => {
-  const [showSearchInput, setShowSearchInput] = useState(false);
   const [showCart, setShowCart] = useState(false);
 
-  const toggleSearchInput = () => {
-    setShowSearchInput(!showSearchInput);
-
-  };
 
   const toggleCart = () => {
     setShowCart(!showCart);
@@ -52,46 +47,39 @@ const Nav = () => {
 
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="/">
+                    <a className="nav-link active bg-light" aria-current="page" href="/">
                       HOME
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/">
+                    <a className="nav-link active bg-light" href="/">
                       X1
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/">
+                    <a className="nav-link active bg-light" href="/">
                       M1
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/">
+                    <a className="nav-link active bg-light" href="/">
                       OUR STORY
                     </a>
                   </li>
 
-                  <li className="nav-item">
-                    <a className="nav-link" href="/">
+                  <li className="nav-item ">
+                    <a className="nav-link active bg-light" href="/">
                       CONTACT
                     </a>
                   </li>
 
                 </ul>
               </div>
+              </div>
+
 
               <div id="form-container">
-                <button className="nav-button btn btn-light" onClick={toggleSearchInput}>
-                  &#128269;
-                </button>
-                {showSearchInput && (
-                  <input
-                    type="text"
-                    placeholder="Search..."
-                    className="search-input"
-                  />
-                )}
+              
                 <button className="nav-button btn btn-light" onClick={toggleCart}>
                   🛒
                 </button>
@@ -107,7 +95,6 @@ const Nav = () => {
               </div>
             </div>
 
-          </div>
         </nav>
       </div>
     </div>

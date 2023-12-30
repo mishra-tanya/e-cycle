@@ -92,7 +92,6 @@ body {
   @media (min-width: 768px) {
   
   
-  
     #form-container {
       flex-direction: row;
     }
@@ -130,6 +129,10 @@ body {
     border: none;
   }
   
+  #form-container {
+    flex-direction: row;
+  }
+
   }
   @media (min-width: 767px) {
     .navbar-toggler[aria-expanded="true"] {
